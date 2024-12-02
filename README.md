@@ -15,7 +15,8 @@ This project aims to predict a Twitter user's MBTI personality type using their 
 The project uses the following data sources:
 - `user_tweets.csv`: Contains tweets and user activity data
 - `mbti_labels.csv`: Contains MBTI personality labels for users
-- Network relationship data between users
+- `user_info.csv`: Contains user information 
+- `edges.csv`: Contains following/follower relationships between users
 
 ### Features Used
 - Tweet text (processed and embedded using SentenceTransformer)
